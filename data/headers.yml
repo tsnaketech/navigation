@@ -3,32 +3,34 @@
 items:
   - name : Home
     icon: fa fa-home
-    link: /
+    link: 
 
   - name : Resource
     icon: far fa-folder-open fa-lg
-    link: /resource
+    link: resource
 
   - name : AI
     icon: fas fa-brain fa-lg
-    link: /ai
+    link: ai
 
   - name : Business
     icon: fas fa-briefcase fa-lg
-    link: /business
+    link: business
 
   - name : Cybersecurity
     icon: fas fa-shield-halved fa-lg
-    link: /cybersecurity
+    link: cybersecurity
 
   - name : IT
     icon: fas fa-desktop fa-lg
-    link: /it
+    link: it
 
   - name : Online Tools
     icon: fas fa-screwdriver-wrench fa-lg
-    link: /online-tools
+    link: online-tools
 
   - name : Gaming
     icon: fas fa-gamepad fa-lg
-    link: /gaming
+    link: gaming
+
+---

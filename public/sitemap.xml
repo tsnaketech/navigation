@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://192.168.1.109/about/</loc>
+    <loc>http://192.168.1.109/test/about/</loc>
     <lastmod>2020-07-28T19:27:08+08:00</lastmod>
   </url><url>
-    <loc>http://192.168.1.109/ai/</loc>
+    <loc>http://192.168.1.109/test/ai/</loc>
   </url><url>
-    <loc>http://192.168.1.109/business/</loc>
+    <loc>http://192.168.1.109/test/business/</loc>
   </url><url>
-    <loc>http://192.168.1.109/categories/</loc>
+    <loc>http://192.168.1.109/test/categories/</loc>
   </url><url>
-    <loc>http://192.168.1.109/cybersecurity/</loc>
+    <loc>http://192.168.1.109/test/cybersecurity/</loc>
   </url><url>
-    <loc>http://192.168.1.109/gaming/</loc>
+    <loc>http://192.168.1.109/test/gaming/</loc>
   </url><url>
-    <loc>http://192.168.1.109/it/</loc>
+    <loc>http://192.168.1.109/test/it/</loc>
   </url><url>
-    <loc>http://192.168.1.109/nav/</loc>
+    <loc>http://192.168.1.109/test/nav/</loc>
   </url><url>
-    <loc>http://192.168.1.109/</loc>
+    <loc>http://192.168.1.109/test/</loc>
   </url><url>
-    <loc>http://192.168.1.109/online-tools/</loc>
+    <loc>http://192.168.1.109/test/online-tools/</loc>
   </url><url>
-    <loc>http://192.168.1.109/resource/</loc>
+    <loc>http://192.168.1.109/test/resource/</loc>
   </url><url>
-    <loc>http://192.168.1.109/splunk/</loc>
+    <loc>http://192.168.1.109/test/splunk/</loc>
   </url><url>
-    <loc>http://192.168.1.109/tags/</loc>
+    <loc>http://192.168.1.109/test/tags/</loc>
   </url>
 </urlset>
