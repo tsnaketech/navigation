@@ -28,6 +28,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
             deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+            external_repository: tsnaketech/hugo-webstack
             publish_dir: ./public
             publish_branch: gh-pages
             force_orphan: true
