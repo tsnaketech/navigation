@@ -22,7 +22,9 @@ jobs:
             extended: false
 
       - name: Build
-        run: hugo --minify --baseURL=${{ vars.BASE_URL }}
+        run: hugo \
+              --minify \
+              --baseURL="${{ steps.pages.outputs.base_url }}/"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
