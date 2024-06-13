@@ -11,8 +11,8 @@ params:
   author: "snaketech"
   description: "Navigation for SnakeTech"
   keywords: "sitemap,webstack,hugo"
-  about: "https://github.com/shenweiyan/Knowledge-Garden/discussions/10"    # 左侧导航栏的"关于导航"页面(./about)
-  repository: "https://github.com/snaketech/hugo-webstack"  
+  about: ""
+  repository: "https://github.com/tsnaketech/hugo-webstack"  
   enablePreLoad: false    # Pre-loaded animation before the site fully opens
   textPreLoad: "Nav SnakeTech"    # Preloaded animated text, only works if enablePreLoad:true.
   expandSidebar: true    # Expand left side navigation bar by default
@@ -27,7 +27,7 @@ params:
     GoogleAdsClient: ''    # Google AdSense 
 
   qweather:
-    #key: "085791e805a24491b43b06cf58ab31e7"
+    #key: ""
 
   images:
     favicon: "../../assets/images/favicon.png"
@@ -40,12 +40,11 @@ params:
     
   footer:
     copyright: '&copy; {year} By [SnakeTech](https://www.snaketech.net/) | Idea by [QIN2DIM](https://nav.echosec.top/) | Based on [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo) <br/>'
-    #https://github.com/QIN2DIM/blog-nav
 
 contentTypes:
   nav:
-    path: "nav" # Relative path for "nav" content
-    layout: "nav/single" # Model used for individual "nav" type content
+    path: "nav"              # Relative path for "nav" content
+    layout: "nav/single"     # Model used for individual "nav" type content
     single:
       layout: "nav/single"
 

@@ -1,0 +1,35 @@
+name: Deploy Hugo site to Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+            submodules: true
+            fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+            hugo-version: '0.127.0'
+            extended: false
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            external_repository: tsnaketech/hugo-webstack
+            publish_dir: ./public
+            publish_branch: gh-pages
+            force_orphan: true
+            full_commit_message: ${{ github.event.head_commit.message }}
