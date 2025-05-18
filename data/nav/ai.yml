@@ -4,8 +4,13 @@
   icon: fas fa-comments
   links: 
 
+    - title: Bolt.new
+      url: https://bolt.new/
+      logo: bolt.svg
+      description: Bolt is a new way to create and share AI-powered chatbots
+
     - title: ChatGPT
-      url: https://chat.openai.com/
+      url: https://chatgpt.com/
       logo: chatgpt.png
       description: The new order
 
@@ -23,6 +28,11 @@
       url: https://chat.mistral.ai/chat
       logo: mistral.png
       description: Frontier AI in your hands
+
+    - title: NoteBookLM
+      url: https://notebooklm.google.com/
+      logo: notebooklm.svg
+      description: NotebookLM is a platform for creating and sharing AI-powered chatbots
 
 - taxonomy: Image
   icon: fas fa-image
@@ -84,6 +94,14 @@
       url: https://unsloth.ai/
       logo: unsloth.png
       description: The AI model marketplace
+
+- taxonomy: Presentation
+  icon: fas fa-chalkboard-teacher
+  links: 
+    - title: NapkinAI
+      url: https://napkinai.com/
+      logo: napkin.png
+      description: AI-powered presentation tool
 
 - taxonomy: Prompt
   icon: far fa-comment

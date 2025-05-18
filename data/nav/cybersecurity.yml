@@ -2,16 +2,16 @@
 
 - taxonomy: Blog & Forum
   icon: fas fa-blog
-  list: 
+  list:
     - term: ASM
-      links: 
+      links:
         - title: Azaeria Labs
           url: https://azeria-labs.com/writing-arm-assembly-part-1/
           logo: azeria-labs.ico
-          description: 
+          description:
 
     - term: Forum
-      links: 
+      links:
         - title: Reverse Engineering
           url: https://reverseengineering.stackexchange.com/
           logo: stackexchange.png
@@ -20,48 +20,53 @@
         - title: 0x00sec
           url: https://0x00sec.org/
           logo: 0x00sec.png
-          description: 
+          description:
 
 - taxonomy: Challanges
   icon: fas fa-unlock
-  list: 
+  list:
     - term: Ransoware
-      links: 
+      links:
+        - title: Blue Team Labs Online
+          url: https://blueteamlabs.online/home
+          logo: blueteamlabs.ico
+          description: Blue Team Labs Online is a set of labs for learning and practicing blue team skills.
+
         - title: Crackmes
           url: https://crackmes.one/
           logo: crackmes.png
-          description: 
-          
+          description:
+
         - title: Hack The Box
           url: https://www.hackthebox.com/
           logo: hackthebox.png
-          description: 
+          description:
 
         - title: Newbie Contest
           url: https://www.newbiecontest.org/
           logo: newbiecontest.png
-          description: 
+          description:
 
         - title: OverTheWire
           url: https://overthewire.org/wargames/
           logo: https://overthewire.org/img/favicon.ico
-          description: 
+          description:
 
         - title: Root-Me
           url: https://www.root-me.org/
           logo: root-me.svg
-          description:  
+          description:
 
         - title: TryHackMe
           url: https://tryhackme.com/
           logo: tryhackme.png
-          description: 
+          description:
 
 - taxonomy: Crypto
   icon: fas fa-key
-  list: 
+  list:
     - term: Ransoware
-      links: 
+      links:
         - title: ID Ransomware
           url: https://id-ransomware.malwarehunterteam.com/
           logo: malwarehunterteam.png
@@ -74,7 +79,7 @@
 
 - taxonomy: Leaning
   icon: fas fa-book-open-reader
-  links: 
+  links:
     - title: Intel Techniques
       url: https://inteltechniques.com/
       logo: inteltechniques.ico
@@ -85,6 +90,11 @@
       logo: https://secnumacademie.gouv.fr/resources/assets/images/favicon.ico
       description: Mooc ANSSI
 
+    - title: SecurityBlueTeam
+      url: https://elearning.securityblue.team/home
+      logo: securityblue.ico
+      description: Blue Team training
+
 - taxonomy: Low Level
   icon: fas fa-turn-down
   links:
@@ -93,11 +103,35 @@
       logo: shell-storm.png
       description:
 
+- taxonomy: Reference
+  icon: fas fa-book
+  links:
+
+    - title: Mittre ATT&CK
+      url: https://attack.mitre.org/
+      logo: mitre-attck.png
+      description: Adversarial Tactics, Techniques, and Common Knowledge
+
+    - title: OWASP
+      url: https://owasp.org/
+      logo: owasp.png
+      description: Open Web Application Security Project
+
+    - title: SANS
+      url: https://www.sans.org/
+      logo: sans.png
+      description: Information security training
+
+    - title: TheHackerNews
+      url: https://thehackernews.com/
+      logo: thehackernews.png
+      description: Cybersecurity news
+
 - taxonomy: Repo
   icon: fas fa-diagram-project
-  list: 
+  list:
     - term: Library
-      links: 
+      links:
         - title: SecLists
           url: https://github.com/danielmiessler/SecLists
           logo: osintframework.png
@@ -105,7 +139,7 @@
 
 - taxonomy: Vulnerabilities
   icon: fas fa-eye
-  links: 
+  links:
     - title: Vigilance
       url: https://vigilance.fr/
       logo: vigilance.png
@@ -113,9 +147,9 @@
 
 - taxonomy: Wordlists
   icon: fas fa-arrow-down-a-z
-  links: 
+  links:
     - title: WeakPass
       url: https://weakpass.com/wordlist
-      logo: 
+      logo:
       description: Wordlist
 ---

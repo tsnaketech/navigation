@@ -37,7 +37,7 @@
     - title: TryHackMe
       url: https://tryhackme.com/
       logo: tryhackme.png
-      description: 
+      description:
 
 - taxonomy: Anglaiiiiiiiiiis
   icon: fas fa-language
@@ -71,12 +71,12 @@
           url: https://israelpalestine.liveuamap.com/
           logo: liveuamap.svg
           description: Live map of international conflicts
-          
+
         - title: War Mapper
           url: https://www.warmapper.org/israel
           logo: warmapper.ico
           description: Presenting confirmed territorial control changes
-          
+
         - title: WhatMyName
           url: https://whatsmyname.app/
           logo: whatmyname.jpg
@@ -92,7 +92,7 @@
           logo: geoguessr.png
           description: Explore the world!
 
-        - title: Osint Framework          
+        - title: Osint Framework
           url: https://osintframework.com/
           logo: osintframework.png
           description: OSINT Framework is a collection of various OSINT tools.
@@ -133,7 +133,7 @@
           url: http://flatuicolors.com/
           logo: flatuicolors.ico
           description: Copy Paste Color Palette from Flat UI Theme.
-          
+
         - title: Coolors
           url: https://coolors.co/
           logo: coolors.png
@@ -143,7 +143,7 @@
           url: http://www.colorhunt.co/
           logo: colorhunt.svg
           description: Beautiful Color Palettes.
-          
+
         - title: Adobe Color CC
           url: https://color.adobe.com/fr/create/color-wheel
           logo: adobe-color-cc.png
@@ -297,12 +297,12 @@
           url: https://www.freeview.co.uk/
           logo: freeview.png
           description: Regain control of your news subscriptions.
-          
+
         - title: TV Direct
           url: https://www.tv-direct.fr/
           logo: tv-direct.png
           description: Regain control of your news subscriptions.
-      
+
   # - title: Phrasebank
   #   logo: assets/images/logos/1519782_colorful_document_note_office_paper_icon.png
   #   url: https://www.phrasebank.manchester.ac.uk/
